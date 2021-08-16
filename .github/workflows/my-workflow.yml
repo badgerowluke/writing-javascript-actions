@@ -15,8 +15,9 @@ jobs:
     steps:
 
       - uses: actions/checkout@v1
+
       - name: hello-action
-      - uses: ./.github/actions/hello-world
+        uses: ./.github/actions/hello-world
         with:
           first-greeting: "learning lab user"
           second-greeting: "Mona the Octocat"
