@@ -9,7 +9,6 @@ async function run() {
   
       const octokit = github.getOctokit(token);
 
-      console.log(octokit.issues)
 
       console.log({
         repo: github.context.repo.repo,
