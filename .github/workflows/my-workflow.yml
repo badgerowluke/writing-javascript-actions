@@ -19,6 +19,11 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          first-greeting: "Moana"
+          second-greeting: "Tyler Durden"
+          third-greeting: "Jimini Cricket"
+
       
       - name: ha-ha
         uses: ./.github/actions/joke-action
